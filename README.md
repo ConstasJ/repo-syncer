@@ -1,2 +1,3 @@
-# node-app-template
-An Node.js Application.
+# repo-syncer
+
+A application that can automatically sync repos between same or different platforms.
