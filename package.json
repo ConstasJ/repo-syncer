@@ -2,11 +2,9 @@
     "name": "app-template",
     "version": "0.0.0-development",
     "description": "An Node.js Application.",
+    "main": "lib/index.js",
+    "module": "lib/index.mjs",
     "types": "lib/index.d.ts",
-    "exports": {
-        "import": "./lib/index.mjs",
-        "require": "./lib/index.js"
-    },
     "files": [
         "lib",
         "!lib/index.d.mts"
