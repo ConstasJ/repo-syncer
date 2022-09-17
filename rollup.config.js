@@ -20,7 +20,8 @@ export default defineConfig([
         input: 'src/cmd.ts',
         output: {
             file: 'lib/cmd.js',
-            format: 'commonjs'
+            format: 'commonjs',
+            banner: '#!/usr/bin/env node'
         },
         plugins: [
             ts({
