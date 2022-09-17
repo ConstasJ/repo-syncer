@@ -17,17 +17,14 @@ export default defineConfig([
         ]
     },
     {
-        input: 'src/index.ts',
+        input: 'src/cmd.ts',
         output: {
-            file: 'lib/index.mjs',
-            format: 'esm'
+            file: 'lib/cmd.js',
+            format: 'commonjs'
         },
         plugins: [
             ts({
-                tsconfig: {
-                    fileName: 'tsconfig.json',
-                    hook: (resolvedConfig) => ({ ...resolvedConfig, declaration: false })
-                }
+                tsconfig: 'tsconfig.json'
             })
         ]
     }
