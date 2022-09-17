@@ -1,20 +1,25 @@
 {
-    "name": "app-template",
+    "name": "repo-syncer",
     "version": "0.0.0-development",
-    "description": "An Node.js Application.",
+    "description": "A application that can automatically sync repos between same or different platforms.",
     "main": "lib/index.js",
     "types": "lib/index.d.ts",
     "files": [
-        "lib",
-        "!lib/index.d.mts"
+        "lib"
     ],
     "scripts": {
         "start": "node lib/index.js",
         "build": "rollup -c",
         "release": "semantic-release"
     },
-    "keywords": [],
-    "author": "",
+    "keywords": [
+        "repo",
+        "sync",
+        "SCM",
+        "git",
+        "Code Hosting"
+    ],
+    "author": "ConstasJ <constasj@qq.com>",
     "license": "MIT",
     "devDependencies": {
         "@rollup/plugin-replace": "^4.0.0",
