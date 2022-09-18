@@ -18,6 +18,8 @@ async function sSync(pth: string, srcp: string, trgp: string) {
     const gc = simpleGit();
     if (!fs.existsSync(path.resolve(hPath, `./${pth}`))) {
         await gc.mirror(`git@${srcp}.com:${pth}`, path.resolve(hPath, `./${pth}`));
+        const gl = simpleGit(path.resolve(hPath, `./${pth}`));
+        await gl.remote(['rename', 'origin', srcp]);
         logger.info(`Cloned repo from source platform(${srcp}).`);
     } else {
         const gl = simpleGit(path.resolve(hPath, `./${pth}`));
