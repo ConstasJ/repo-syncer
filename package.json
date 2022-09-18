@@ -20,6 +20,14 @@
         "git",
         "Code Hosting"
     ],
+    "homepage": "https://github.com/ConstasJ/repo-syncer",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ConstasJ/repo-syncer"
+    },
+    "bugs": {
+        "url": "https://github.com/ConstasJ/repo-syncer/issues"
+    },
     "author": "ConstasJ <constasj@qq.com>",
     "license": "MIT",
     "devDependencies": {
