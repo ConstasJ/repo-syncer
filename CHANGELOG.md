@@ -1,3 +1,18 @@
+# [1.0.0-alpha.2](https://github.com/ConstasJ/repo-syncer/compare/v1.0.0-alpha.1...v1.0.0-alpha.2) (2022-09-18)
+
+
+### Bug Fixes
+
+* **api:** fix the problem that '--all' cannot be used with '--mirror' in pushing ([29c3d2c](https://github.com/ConstasJ/repo-syncer/commit/29c3d2c76a37b133daf41ccd73d1098d2fb5ac13))
+* fix "git show error that the remote already exists" ([3f5f2cb](https://github.com/ConstasJ/repo-syncer/commit/3f5f2cba5a0635268baa1809b01c67563f210638))
+
+
+### Features
+
+* ✨Add logging function ([a8222cf](https://github.com/ConstasJ/repo-syncer/commit/a8222cf7754818e1ae682156eba9392a201ca6d9))
+* **api:** add API double-side syncing function ([7655518](https://github.com/ConstasJ/repo-syncer/commit/76555189c66d94863a8f8e89b07142837aa23540))
+* **api:** add the origin remote auto rename ([b529568](https://github.com/ConstasJ/repo-syncer/commit/b529568fa450bd2bd607d8c8ddd1cb07a38ae9de))
+
 # 1.0.0-alpha.1 (2022-09-17)
 
 

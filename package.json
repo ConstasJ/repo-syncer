@@ -1,6 +1,6 @@
 {
     "name": "repo-syncer",
-    "version": "1.0.0-alpha.1",
+    "version": "1.0.0-alpha.2",
     "description": "A application that can automatically sync repos between same or different platforms.",
     "main": "lib/index.js",
     "types": "lib/index.d.ts",
