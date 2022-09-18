@@ -28,7 +28,7 @@ async function sSync(pth: string, srcp: string, trgp: string) {
     }
     const git = simpleGit(path.resolve(hPath, `./${pth}`));
     if (!(await hasRemote(trgp))) await git.addRemote(trgp, `git@${trgp}.com:${pth}`);
-    await git.push(['--all', `${trgp}`]);
+    await git.push(['--mirror', `${trgp}`]);
     logger.info(`Pushed to target platform(${trgp}).`);
 }
 
