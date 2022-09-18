@@ -10,7 +10,8 @@
     "scripts": {
         "start": "node lib/index.js",
         "build": "rollup -c",
-        "release": "semantic-release"
+        "release": "semantic-release",
+        "install:local": "npm run build && npm link --force"
     },
     "keywords": [
         "repo",
